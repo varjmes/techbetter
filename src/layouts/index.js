@@ -3,7 +3,41 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
-import './index.css'
+import { injectGlobal } from 'styled-components';
+
+injectGlobal`
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+  html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Montserrat';
+    min-height: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(129,103,183, 1);
+  }
+  body {
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 40px;
+
+    * {
+      box-sizing: border-box;
+    }
+  }
+
+  #___gatsby {
+    min-height: 100%;
+
+    > div {
+        height: 100%;
+      }
+  }
+`
 
 const Layout = ({ children, data }) => (
   <div>
@@ -15,16 +49,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
+    {children()}
   </div>
 )
 

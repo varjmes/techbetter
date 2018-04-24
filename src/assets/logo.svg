@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="156px" height="25px" viewBox="0 0 156 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Montserrat-Bold, Montserrat" font-size="29" font-weight="bold">
+        <g id="Headers-part-1-#2" transform="translate(-35.000000, -28.000000)">
+            <g id="Head" transform="translate(35.000000, 21.000000)">
+                <g id="Logo">
+                    <text id="Techbetter">
+                        <tspan x="0" y="28" fill="#FFFFFF">Tech</tspan>
+                        <tspan x="73.399" y="28" font-family="PlayfairDisplay-BlackItalic, Playfair Display" font-style="italic" font-weight="700" fill="#FFC80A">better</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
